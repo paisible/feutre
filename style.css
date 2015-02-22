@@ -8,6 +8,7 @@ h1,h2,h3,h4{
 
 a{
 	color:#fff;
+	font-family: 'Raleway', sans-serif;
 }
 
 .logo{
@@ -20,8 +21,15 @@ a{
 	text-align:center;
 }
 
+.content h2{
+	font-size: 2em;
+}
+
 .content a{
 	text-decoration: none;
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
 }
 
 
@@ -35,4 +43,7 @@ a{
 .videos iframe{
 	border:2px solid #fff;
 	margin-bottom:20px;
+	width:50%;
+	height:400px;
+	max-width:50%;
 }
