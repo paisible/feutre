@@ -9,3 +9,30 @@ h1,h2,h3,h4{
 a{
 	color:#fff;
 }
+
+.logo{
+	margin-top:-80px;
+}
+
+.content{
+	margin-top:-50px;
+	margin-bottom:50px;
+	text-align:center;
+}
+
+.content a{
+	text-decoration: none;
+}
+
+
+.images img{
+	max-width:35%;
+	margin-bottom:20px;
+	margin-right:20px;
+	border:2px solid #fff;
+}
+
+.videos iframe{
+	border:2px solid #fff;
+	margin-bottom:20px;
+}
